@@ -23,6 +23,14 @@ h3 {
 
 .h4-blue {color:rgb(130, 184, 255)}
 
+.p1 {
+  color: black
+}
+
+.p1-gray {
+  color: rgb(87, 87, 87)
+}
+
 body, html {
     height: 100%;
 }
@@ -50,6 +58,7 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+
 }
 
 .button {
@@ -82,3 +91,70 @@ html// {
     -o-background-size: cover;
     background-size: cover;
   }
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 55px;
+}
+
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("Images/photographer.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
